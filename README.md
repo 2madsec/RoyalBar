@@ -1,1 +1,1 @@
- bugounty
+ bugbounty
