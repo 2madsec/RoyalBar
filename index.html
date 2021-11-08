@@ -228,6 +228,10 @@ scroll-behavior: smooth;
 </footer>
 
 <script>
+  
+    $(document).ready(function() {
+  $('.image-link').magnificPopup({type:'image'});
+});
 // Tabbed Menu
 function openMenu(evt, menuName) {
   var i, x, tablinks;
@@ -244,9 +248,6 @@ function openMenu(evt, menuName) {
 }
 document.getElementById("myLink").click();
   
-  document.ready(function() {
-  ('.image-link').magnificPopup({type:'image'});
-});
 </script>
 
 </body>
