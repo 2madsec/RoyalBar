@@ -36,7 +36,7 @@ scroll-behavior: smooth;
   to {opacity: 1}
 }
 </style>
-<body>
+<body onload="myFunction()">
   
 <!-- Navbar (sit on top) -->
 <div class="w3-top ">
@@ -155,6 +155,9 @@ scroll-behavior: smooth;
       <h1><img src="shot2.png" width="60px" height="90px">&nbsp<b>צ'ייסר</b> <span class="w3-right w3-tag w3-dark-grey w3-round">10₪</span></h1>
        <hr>
 
+       <h1><img src="limon.png" width="60px" height="90px">&nbsp<b>לימונענע גרוס</b> <span class="w3-right w3-tag w3-dark-grey w3-round">15₪</span></h1>
+       <hr>
+      
      <center> <p class="w3-text-white">שתיה קלה</p></center>
      
       <h1>&nbsp<img src="colag2.png" width="40px" height="125px">&nbsp<b>קולה/זירו זכוכית</b> <span class="w3-right w3-tag w3-dark-grey w3-round">8₪</span></h1>
@@ -323,12 +326,16 @@ scroll-behavior: smooth;
   <br><br><br>
 </div>
 
+<hr>
+
 <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="contact" style="text-align:center">
 <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">יצירת קשר</h1>
   <p>וסים: 0528341413</p>
   <p>שאדי: 0524000587</p>
   <br><br><br>
 </div>
+
+<hr>
 
 <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="map">
 <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">דרכי הגעה</h1>
@@ -379,7 +386,11 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2500); // Change image every 2.5 seconds
-}  
+} 
+  
+  function myFunction() {
+  alert("חדש בויאל! לימונענע גרוס");
+}
 </script>
 
 </body>
